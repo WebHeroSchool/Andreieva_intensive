@@ -6,15 +6,36 @@
   font-family: 'Roboto-Regular';
   src: url('fonts/Roboto-Regular.ttf');
 }
+<<<<<<< Updated upstream
 .logo{
   font-family: 'PTSerif-Regular';
   font-weight: bold;
 }
 .title{
+=======
+.wrapper{
+  width: 80%;
+  margin: auto;
+}
+.logo{
+  font-family: 'PTSerif-Regular';
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content__title{
+>>>>>>> Stashed changes
   font-family: 'Roboto-Regular';
   font-weight: bold;
   font-size: 50px;
 }
+<<<<<<< Updated upstream
 nav > a{
   font-family: 'Roboto-Regular';
   font-weight: bold;
@@ -22,4 +43,33 @@ nav > a{
 main > p, button{
   font-family: 'Roboto-Regular';
   font-weight: bold;
+=======
+.menu_item{
+  font-family: 'Roboto-Regular';
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 0 13px;
+}
+.menu_item:last-child{
+  padding-right: 0;
+}
+.main-section{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.main-content__button{
+  font-family: 'Roboto-Regular';
+  font-weight: bold;
+}
+.main-content__description{
+  font-family: 'Roboto-Regular';
+  font-weight: bold;
+  padding-right: 37%;
+}
+.image-content__image{
+  padding-top: 5%;
+>>>>>>> Stashed changes
 }
