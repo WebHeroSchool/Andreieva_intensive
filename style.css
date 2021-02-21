@@ -3,7 +3,8 @@
   margin: auto;
 }
 .logo{
-  font: bold 24px/31px 'PTSerif-Regular',arial,helvetica,sans-serif;
+  font: bold 24px/31px 'pt_serif',arial,helvetica,sans-serif;
+  line-height: 32px;
   padding: 40px 0;
   padding-left: 44px;
   position: relative;
@@ -36,12 +37,14 @@ opacity: .7;
   align-items: center;
 }
 .main-content__title{
-  font-family: 'Roboto-Regular';
+  font-family: 'pt_serif';
+  font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 66px;
+  line-height: 87px;
 }
 .menu_item{
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto';
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -57,15 +60,18 @@ opacity: .7;
   padding: 0 15px;
 }
 .main-content__button{
-  font-family: 'Roboto-Regular';
-  font-weight: bold;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
 }
 .main-content__description{
-  font-family: 'Roboto-Regular';
-  font-weight: bold;
-  padding-right: 37%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
 }
 .image-content__image{
   padding-top: 5%;
 }
-
