@@ -43,14 +43,14 @@ opacity: .7;
   font-size: 66px;
   line-height: 87px;
 }
-.menu_item{
+.menu__item{
   font-family: 'Roboto';
   font-weight: bold;
   text-decoration: none;
   color: black;
   padding: 0 13px;
 }
-.menu_item:last-child{
+.menu__item:last-child{
   padding-right: 0;
 }
 .main-section{
