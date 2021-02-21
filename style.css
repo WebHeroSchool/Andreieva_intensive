@@ -3,7 +3,7 @@
   margin: auto;
 }
 .logo{
-  font: bold 24px/31px 'pt_serif',arial,helvetica,sans-serif;
+  font: bold 24px/31px 'pt_serifbold',arial,helvetica,sans-serif;
   line-height: 32px;
   padding: 40px 0;
   padding-left: 44px;
@@ -37,14 +37,14 @@ opacity: .7;
   align-items: center;
 }
 .main-content__title{
-  font-family: 'pt_serif';
+  font-family: 'pt_serifbold';
   font-style: normal;
   font-weight: bold;
   font-size: 66px;
   line-height: 87px;
 }
 .menu__item{
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -60,13 +60,13 @@ opacity: .7;
   padding: 0 15px;
 }
 .main-content__button{
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
 }
 .main-content__description{
-  font-family: 'Roboto';
+  font-family: 'Roboto-Regular';
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
