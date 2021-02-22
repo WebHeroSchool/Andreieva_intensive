@@ -1,35 +1,48 @@
-@font-face {
-  font-family: 'PTSerif-Regular';
-  src: url('fonts/PTSerif-Regular.ttf');
-}
-  @font-face{
-  font-family: 'Roboto-Regular';
-  src: url('fonts/Roboto-Regular.ttf');
-}
 .wrapper{
   width: 80%;
   margin: auto;
 }
 .logo{
-  font-family: 'PTSerif-Regular';
-  font-weight: bold;
-  display: flex;
-  align-items: center;
+  font:24px/31px 'pt_serifbold',arial,helvetica,sans-serif;
+  line-height: 32px;
   padding: 40px 0;
+  padding-left: 44px;
+  position: relative;
+}
+.logo__circle{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.logo__circle_color_blue{
+  left: 8px;
+  top:56%;
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_dark-blue{
+background: #0056EC;
+border-radius: 50%;
+opacity: .7;
 }
 .header{
+  padding: 40px 0;
   display:flex;
   justify-content: space-between;
   align-items: center;
 }
 .main-content__title{
-  font-family: 'Roboto-Regular';
-  font-weight: bold;
-  font-size: 50px;
+  font-family: 'pt_serifbold';
+  font-size: 66px;
+  line-height: 87px;
 }
 .menu__item{
-  font-family: 'Roboto-Regular';
-  font-weight: bold;
+  font-family: 'Roboto-Medium';
   text-decoration: none;
   color: black;
   padding: 0 13px;
@@ -44,13 +57,14 @@
   padding: 0 15px;
 }
 .main-content__button{
-  font-family: 'Roboto-Regular';
-  font-weight: bold;
+  font-family: 'Roboto-Medium';
+  font-size: 18px;
+  line-height: 21px;
 }
 .main-content__description{
   font-family: 'Roboto-Regular';
-  font-weight: bold;
-  padding-right: 37%;
+  font-size: 22px;
+  line-height: 26px;
 }
 .image-content__image{
   padding-top: 5%;
