@@ -41,15 +41,13 @@
 }
 .menu{
   display: flex;
-  padding-top: 47px;
-  padding-left: 26%;
-  margin-left: 100%;
+  justify-content: space-between;
 }
 .menu_item{
   position:relative;
   text-decoration: none;
   color: #000000;
-  margin-right: 55px;
+  margin-right: 26px;
   font: 35px/21px 'Roboto-Medium',arial,helvetica,sans-serif
 }
 .menu_item::after{
@@ -85,11 +83,13 @@
 }
 .main{
   position:relative;
-  background: no-repeat url('img/mainImg.svg');
+  background: top right no-repeat url('img/mainImg.svg');
+  padding-right: 63%;
 }
 .main__title{
   font: 135px/175px 'pt_serifbold',arial,helvetica,sans-serif;
   margin: 27% 0 0 13%;
+  padding-right: 10%;
 }
 .main__title-text_highlight{
   display: flex;
