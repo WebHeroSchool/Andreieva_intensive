@@ -1,17 +1,20 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
 .wrapper{
   width: 80%;
-  margin: auto;
 }
 .logo{
-  font: bold 24px/31px 'pt_serifbold',arial,helvetica,sans-serif;
-  line-height: 32px;
-  padding: 40px 0;
-  padding-left: 44px;
+  font: bold 25px/31px 'pt_serifbold',arial,helvetica,sans-serif;
+  padding: 40px 53px 40px 40px;
+  margin-right: 58%;
   position: relative;
+  letter-spacing: -0.5px;
 }
 .logo__circle{
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   left: 0;
   top: 50%;
@@ -30,22 +33,20 @@
   opacity: .7;
   }
 .header{
-  padding: 40px 0;
+  margin-bottom: 130px;
   display:flex;
   justify-content: space-between;
   align-items: center;
 }
-.main-content__title{
-  font-family: 'pt_serifbold';
-  font-size: 66px;
-  line-height: 87px;
+.menu{
+display: flex;
 }
 .menu_item{
   position:relative;
   text-decoration: none;
   color: #000000;
-  margin-right: 26px;
-  font: 18px/21px 'Roboto-Medium',arial,helvetica,sans-serif
+  margin-right: 24px;
+  font: 19px/21px 'Roboto-Medium',arial,helvetica,sans-serif
 }
 .menu_item::after{
   position: absolute;
@@ -78,22 +79,38 @@
 .menu_item:last-child{
   margin-right: 0;
 }
-.main-section{
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 15px;
+.main{
+  position:relative;
+  background: top right no-repeat url('img/mainImg.svg');
+  padding: 75px 63% 140px 0;
 }
-.main-content__button{
-  font-family: 'Roboto-Medium';
-  font-size: 18px;
-  line-height: 21px;
+.main__title{
+  font: 66px/80px 'pt_serifbold',arial,helvetica,sans-serif;
+  letter-spacing: 1px;
+  word-spacing: -5px;
 }
-.main-content__description{
-  font-family: 'Roboto-Regular';
-  font-size: 22px;
-  line-height: 26px;
+.main__title-text_highlight{
+  display: flex;
+  margin-top: 4px;
+  line-height: 87px;
+  background: #ECF3FF;
+  letter-spacing: 1px;
 }
-.image-content__image{
-  padding-top: 5%;
+.main__description{
+  margin: 39px 100px 39px 0;
+  font: 24px/29px 'Roboto-Regular',arial,helvetica,sans-serif;
+  letter-spacing: -0.8px;
+}
+.main__button{
+  display: inline-block;
+  color: #fff;
+  background: #0056EC;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 35px 20px 25px;
+  font: 18px/16px 'Roboto-Regular',arial,helvetica,sans-serif;
+  transition: opacity .5s;
+}
+.main__button:hover{
+  opacity: .5;
 }
