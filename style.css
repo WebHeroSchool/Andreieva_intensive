@@ -7,10 +7,10 @@
 }
 .logo{
   font: bold 25px/31px 'pt_serifbold',arial,helvetica,sans-serif;
-  line-height: 32px;
-  padding: 40px 48px;
-  margin-right: 59%;
+  padding: 40px 53px 40px 40px;
+  margin-right: 58%;
   position: relative;
+  letter-spacing: -0.5px;
 }
 .logo__circle{
   width: 30px;
@@ -33,7 +33,7 @@
   opacity: .7;
   }
 .header{
-  margin-bottom: 108px;
+  margin-bottom: 130px;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -81,21 +81,25 @@ display: flex;
 }
 .main{
   position:relative;
-  background: center right no-repeat url('img/mainImg.svg');
-  padding: 100px 63% 150px 0;
+  background: top right no-repeat url('img/mainImg.svg');
+  padding: 75px 63% 140px 0;
 }
 .main__title{
   font: 66px/80px 'pt_serifbold',arial,helvetica,sans-serif;
+  letter-spacing: 1px;
+  word-spacing: -5px;
 }
 .main__title-text_highlight{
   display: flex;
-  margin-top: 2px;
-  line-height: 90px;
+  margin-top: 4px;
+  line-height: 87px;
   background: #ECF3FF;
+  letter-spacing: 1px;
 }
 .main__description{
-  margin: 30px 75px 35px 0;
+  margin: 39px 100px 39px 0;
   font: 24px/29px 'Roboto-Regular',arial,helvetica,sans-serif;
+  letter-spacing: -0.8px;
 }
 .main__button{
   display: inline-block;
@@ -103,8 +107,8 @@ display: flex;
   background: #0056EC;
   text-decoration: none;
   border-radius: 4px;
-  padding: 20px;
-  font: 20px/16px 'Roboto-Medium',arial,helvetica,sans-serif;
+  padding: 20px 35px 20px 25px;
+  font: 18px/16px 'Roboto-Regular',arial,helvetica,sans-serif;
   transition: opacity .5s;
 }
 .main__button:hover{
